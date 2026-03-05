@@ -8,7 +8,7 @@ st.set_page_config(page_title="Permiso de Copiloto", page_icon="🪪", layout="c
 NOMBRE = "CANYAGU"
 APODO = "Copiloto Oficial"
 ID_PERMISO = "BB-001"
-FECHA_EMISION = date.today().strftime("%d/%m/%Y")
+FECHA_EMISION = "08/03/2025"
 VALIDEZ = "ANUAL"
 PUNTOS = "15/15"
 PROGRESO = 100
@@ -204,3 +204,4 @@ html = f"""
 
 # Render HTML sin pasar por el parser de Markdown (esto evita el problema del “HTML impreso”)
 components.html(html, height=900, scrolling=False)
+
