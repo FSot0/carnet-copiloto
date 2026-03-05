@@ -185,5 +185,4 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.caption("Tip: guarda esta web en la pantalla de inicio para que parezca una app.")
 st.markdown("</div>", unsafe_allow_html=True)
